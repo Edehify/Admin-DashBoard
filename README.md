@@ -18,7 +18,7 @@ This will be available once the project is complete.
 
 ## Screenshot
 
-![Project Screenshot](./images/grid%20project.png)
+![Project Screenshot](images/grid-project.png)
 
 ---
 
