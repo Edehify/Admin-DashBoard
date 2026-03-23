@@ -4,3 +4,11 @@
     height: 100vh;
     border: 2px solid black;
 }
+
+.sidebar {
+    border: 2px solid red;
+}
+
+.main-area {
+    border: 2px solid blue;
+}
