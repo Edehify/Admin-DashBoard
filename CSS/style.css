@@ -11,8 +11,9 @@
 
 .sidebar {
     border: 2px solid red;
-    display: grid;
-    grid-template-rows: auto auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .main-area {
@@ -31,6 +32,8 @@
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
 
