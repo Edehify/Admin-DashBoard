@@ -24,3 +24,9 @@
 .content {
     border: 2px solid orange;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
