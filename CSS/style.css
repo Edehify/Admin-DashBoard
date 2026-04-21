@@ -89,7 +89,7 @@ ul {
 
 .top-header {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 3fr 2fr;
      align-items: center;
      margin-top: 10px;
 }
@@ -127,7 +127,7 @@ ul {
 
 .bottom-header {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 3fr 2fr;
     align-items: center;
     margin-top: 15px;
 
@@ -155,4 +155,50 @@ ul {
     background-color: var(--primary-color);
     margin: 2%;
     color: white;
+}
+.content {
+    background-color: var(--accent-color);
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+
+
+.cards-container{
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+}
+
+.left-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid red;
+    margin: 0 20px;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 20px;
+    height: 70%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-left: 5px solid gold;
+}  
+
+.card-icons-container {
+    margin-top: auto;
+    align-self: flex-end;
+    
 }
