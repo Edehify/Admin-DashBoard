@@ -12,7 +12,7 @@ For more information about this project and my learning journey, please visit:
 
 ## Live Demo
 
-This will be available once the project is complete.
+![LIVE DEMO](https://edehify.github.io/Admin-DashBoard/)
 
 ---
 
